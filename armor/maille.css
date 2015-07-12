@@ -1,0 +1,260 @@
+* {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 125%;
+	text-decoration : none;
+}
+
+p  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 125%;
+	text-decoration : none;
+}
+
+span  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 125%;
+	text-decoration : none;
+}
+
+
+div  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 125%;
+	text-decoration : none;
+}
+
+
+td,th   {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	text-decoration : none;
+}
+
+
+b {
+	font-weight : bold;
+	font-style : normal;
+	color : #dbdbdb;
+	text-decoration : none;
+}
+
+
+strong {
+	font-size : 16pt;
+	font-weight : bold;
+	font-style : normal;
+	color : #ff7200;
+	text-decoration : none;
+}
+	
+
+h1	{
+	font-size : 18pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	color : #c8c8c8;
+	line-height : 120%;
+	text-decoration : none;
+}
+
+
+h2	{
+	font-size : 16pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	color : #c8c8c8;
+	line-height : 120%;
+	text-decoration : none;
+}
+
+
+h3	{
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	color : #a8a8a8;
+	line-height : 110%;
+	text-decoration : none;
+}
+
+
+h4	{
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	color : #a8a8a8;
+	line-height : 110%;
+	text-decoration : none;
+}
+
+
+h5	{
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : bold;
+	font-style : normal;
+	color : #a8a8a8;
+	line-height : 110%;
+	text-decoration : none;
+}
+
+
+small  {
+	font-size : 10pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	text-decoration : none;
+}
+
+
+sup	{
+	font-size : 9pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #224477;
+	line-height : 140%;
+	text-decoration : none;
+}
+
+
+blockquote  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 115%;
+	text-decoration : none;
+}
+
+
+li  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 120%;
+	text-decoration : none;
+}
+
+
+ul  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	text-decoration : none;
+}
+
+
+ol  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	text-decoration : none;
+}
+
+
+dl  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 130%;
+	text-decoration : none;
+}
+
+
+dd  {
+	font-size : 12pt;
+	font-family : helvetica, arial, sans-serif;
+	font-weight : normal;
+	font-style : normal;
+	color : #dbdbdb;
+	line-height : 120%;
+	text-decoration : none;
+}
+
+a  {
+	font-size : 12pt;
+	font-weight : bold;
+	color: #dddddd;
+	text-decoration : none;
+}
+
+
+a:link  {
+	color: #dddddd;
+	text-decoration : none;
+}
+
+
+a:visited  {
+	color: #dddddd;
+	text-decoration : none;
+}
+
+
+a:active  {
+	color: #CC9933;
+	text-decoration : none;
+}
+
+
+a:hover  {
+#	color : #ffb200;
+	color : #ffb200;
+	text-decoration : none;
+}
+
+
+PRE {
+	font-size: 12pt;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #222222;
+	line-height: 110%;
+	text-decoration: none;
+}
+
+
+CODE {
+	font-size: 12pt;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #222222;
+	line-height: 120%;
+	text-decoration: none;
+}

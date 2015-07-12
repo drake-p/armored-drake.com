@@ -1,0 +1,208 @@
+Changelog for 1.6.1
+
+Fixed - CAPTCHA not working on comments if CAPTCHA options disabled
+
+------------------------------------------------
+
+Changelog for 1.6
+
+Fixed - Some servers not setting correct permissions on uploaded pictures
+Fixed - Font faces with quotes were not displaying properly in admin
+Fixed - Call to undefined function in add.class.php on line 227
+Fixed - Flood check not working unless admin email set
+
+Added - CAPTCHA (image verification) is now an option in anti bot test
+Added - CAPTCHA (image verification) is now an option for comments
+Added - You can now specify an email address for thank you emails to come from
+Added - You can also specify that all notifications to you come from above address
+Added - Can now place an advert anywhere in the guestbook entries
+Added - Legacy support in template loading for people on lazy hosts
+Added - Can now delete/accept/unaccept multiple entries in Easy Admin
+Added - Homepage is now checked for censored words
+Added - [img] agcode now resizes the image if it is to large
+Added - EMAIL AGcode is now optional
+Added - You can now disable the ability to add comments
+Added - Time delay/limit to comment form
+
+Changed - Email format validation
+Changed - Code changes for speed up
+Changed - Base url is now stored in database fo reasy setting/changing
+Changed - Installer and Smartupdater are now a single file, install.php
+
+------------------------------------------------
+
+Changelog for 1.5.5
+
+Fixed exploit in picture.php
+Fixed exploit in code-LANG.php files
+
+------------------------------------------------
+
+Changelog for 1.5.4
+
+Fixed - Some servers not setting correct permissions on uploaded pictures
+Fixed - Undefined variable row message on preview
+Fixed - Link to full size user image no longer needs javascript
+Fixed - Uploaded BMPs not getting added to the entry
+Fixed - Yahoo had changed url for online/offline smiley
+
+Added - Word censoring can now be set to block posts containing bad words
+
+Changed - IP getting function to better detect proxy types
+Changed - Rewrote word censoring to be faster
+
+------------------------------------------------
+
+Changelog for 1.5.3
+
+Fixed - 'Out of range' ICQ error message when using MySQL 5.0.12 and over
+Fixed - Include code for gbinclude.php file not showing correctly on some servers
+Fixed - 'Undefined variable: rid' error messge in easy admin
+Fixed - Text colouring for private message option now matches rest of form
+Fixed - Integrated the PHP 4.4.1 patch files
+Fixed - Was not returning to correct page when accepting comments
+Fixed - Opera (stupid browser) reported an error when editing posts with long user agents
+Fixed - Can now use single characters in email domains if it is a sub domain
+        (ie here@x.test.com will work but here@x.com will not)
+Fixed - Time displayed in Easy Admin now obeys your time offset 
+Fixed - Had &amp; in yahoo template instead of &       
+
+Added - Pagination on the index page
+Added - AGCode buttons to put the AGcode into the message
+Added - Comment table is now indexed for faster loading
+Added - Can now unaccept posts so they show in easy admin but not guestbook
+Added - Unaccepted posts and comments now have pink background in Easy Admin
+
+Changed - Reworded the email field options in Admin - General Settings
+
+Removed - The Allowed HTML and Allowed AGCode text
+
+------------------------------------------------
+
+Changelog for 1.5.2
+
+Fixed - Admin log in form not showing in PHP Nuke
+Fixed - Unable to login using non alphanumeric characters in PHP Nuke
+Fixed - picture.php no longer reports an error if img variable left empty
+
+Changed - Easy admin now returns to the page you were viewing after performing an action
+
+------------------------------------------------ 
+
+Changelog for 1.5.1
+
+Fixed - Requiring an email address could be bypassed with a space
+Fixed - AGcode messed up if tags where stacked
+Fixed - Couldn't use a double quote (") in bot test question
+Fixed - Comments were not using your specified text colour
+
+Added - Charset to HTML emails so that non English characters are displayed correctly in email clients.
+Added - Can now ban an IP and delete a post at the same time in easy admin
+Added - .htaccess file so that pages are sent using gzip compression
+Added - International Date Format as an option
+Added - Option to have comments hidden with a link to make them appear
+Added - You can now add text to the password input of comment form
+Added - Charset is now set in General Settings
+Added - Email addresses can now be hidden in entries
+
+Changed - Gone back to using the emotion of a smiley for the alt text and not the smiley code
+Changed - Code for checking if an IP is banned is now faster and uses less CPU time
+Changed - Image uploading now even works when server is in safe mode
+Changed - Email addresses are now checked for bad words
+Changed - Removed the storeasip option
+Changed - Both hostname and IP are stored for every post
+Changed - Antispam word is now stored in database and randomly generated
+Changed - Comment notification emails now contain the guestbook entry that has been commented on
+Changed - Templating system has been overhauled to make it only use one set of files
+Changed - All fields except name and message are optional.
+Changed - Version number is now only shown in admin section.
+
+----------------------------------------------
+
+Changelog for 1.4
+
+Fixed - Bad word filtering when regex is not selected
+Fixed - I had used the admin password page from my demo version
+Fixed - Added title attribute to gender images
+Fixed - Some images were using the /> XHTML ending
+Fixed - Email encryption used on Comment form and entry preview was different from the main version
+Fixed - YAHOO and AGENT being undeclared (only on servers where PHP error reporting is set to high)
+Fixed - Jump to not working in easy admin
+
+Added - Javascript confirmation box when deleting anything via easy admin
+Added - Comments for an entry now appear in the comment form with the entry
+Added - Text for the MSN, Yahoo and Skype links in entries now in language files
+Added - Anti bot test is now indicated as a required field
+Added - Homepage URL is now a link in easy admin and private messages
+Added - IP's in easy admin can be clicked to resolve the IP to the owner
+Added - Hostnames in Easy Admin can be clicked to get the IP for them
+Added - Email addresses posted using AGCode are now encrypted.
+Added - You can now use [NAME] in thank you emails to have the posters name put at that point.
+
+Changed - URL's in posts now only display the domain of the link whilst still linking to the full url submitted.
+Changed - Comments are now checked for bad words before being checked for AGCode and URL's
+Changed - Comment success message now uses success.php template
+Changed - All information from a submitted entry is sent to the webmaster if they have requested to be notified
+Changed - Wording of the Thank You email section of Admin
+
+----------------------------------------------
+
+Changelog for 1.3
+
+Fixed - No alt tag when [img][/img] used to display an image
+Fixed - HTML entities in from address of new post notifications
+Fixed - Complete overhaul of the install.php file
+Fixed - Font sizes for some items in addentry form
+Fixed - Typo in top logout link on style page of admin (only on servers where PHP error reporting is set to high)
+Fixed - Undefined variable when trying to accept a post (only on servers where PHP error reporting is set to high)
+Fixed - undefined variable use_regex (only on servers where PHP error reporting is set to high)
+
+Added - Guestbook now uses UTF-8 character set for better international support even in admin
+Added - Skype field
+
+Changed - Thumbnail creation updated to improve thumbnal quality
+Changed - Uploaded images in entries now use float:left; for better appearance.
+Changed - Improved encryption of text email in entries.
+
+----------------------------------------------
+
+Changelog for 1.2.1
+
+Fixed - Closing quote of alt attribute for smileys.
+Fixed - Rough edge around Firefox, IE and Mozilla browser icons.
+
+Added - Can now use bmps for smileys.
+
+Changed - Switched from using ereg_replace to using str_replace in template loading
+Changed - Switched from using an array to strtr when previewing
+
+---------------------------------------------
+
+Changelog for 1.2
+
+Fixed - Smileys not working on forms
+Fixed - bottest not working when used as a module
+
+Added - Time check on entries to help fight spam
+Added - Time display in Admin - Style to display time on server and your time
+
+---------------------------------------------
+
+Changelog for 1.1
+
+Fixed - Emails to admin were all on one line
+Fixed - Forgot to get the information in gbinclude when globals are turned off
+
+Added - Browser detect whereby the appropriate browser icon is displayed
+Added - Clickable browsers in pop up smileys window
+Added - Picture Upload is now disabled unless you have made the folders writable
+Added - Templates state if they are editable or not in Admin section
+Added - Duplicated jump links in easy admin so they are at the top and bottom
+
+Changed - Rearranged layout of the name section of entries
+Changed - MSN icon is now a link to the users MSN profile
+Changed - MSN icon is now MSN butterfly
+Changed - Cleaner AIM icon
+Changed - Smiley pop up only shows smileys and AGcode link shows the AGcode if it is on
+
+Some things I probably have forgotten about as well

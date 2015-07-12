@@ -1,0 +1,106 @@
+body {	margin: 0;
+	padding: 0;
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCC; }
+
+h1, h2, h3, h4, h5, p {
+	padding: 0 20px 5px 20px; }
+
+img {	border: 0; }
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden; }
+
+.header {
+	width: 100%;
+	height: 110px;
+	padding: 0;
+	margin: 0; }
+
+.mid {	background-color: #000;
+	border: 1px dashed #DDD; }
+
+.navbar {
+	width: 150px;
+	float: left;
+	text-align: right;
+	font-size: 14px;
+	background: url(slices/viking.jpg) no-repeat bottom left;
+	padding: 0;
+	margin: 0; }
+
+.slicebar {
+	width: 90px;
+	float: left;
+	font-size: 14px;
+	padding: 10px 5px;
+	text-align: left; }
+
+.content {
+	width: 630px;
+	margin: 0 0 0 50px;
+	float: left;
+	text-align: center;
+	padding: 0 0 10px 0; }
+
+.clr {	clear: both;
+	position: relative; }
+
+.footer {
+	position: relative;
+	clear: both;
+	padding: 0 5px;
+	text-align: center; }
+
+strong {
+	font-size : 16pt;
+	font-weight : bold; }
+
+small {	font-size : 10pt; }
+
+sup {	font-size : 9pt;
+	line-height : 140%; }
+
+a {	font-weight : bold;
+	text-decoration : none; }
+
+a:link, a:visited { color: #ffffff; }
+
+a:hover, a:active, a:focus  { color: #ffb200; }
+
+.navbar ul { list-style: none;
+	padding: 0;
+	margin: 0; }
+
+.navbar li { 
+	float: left;
+	width: 100%;
+	border-top: 1px dashed #DDD; }
+
+.navbar li a:link, .navbar li a:visited {
+	padding: 5px 10px 5px 5px;
+	display: block;
+	text-decoration: none;
+	font-weight: normal; }
+
+.navbar li a:hover, .navbar li a:active, .navbar li a:focus {
+	background-color: #975f00;
+	color: #000; }
+
+.navbar li.listhead {
+	padding: 5px;
+	border: 0px;
+	display: block;
+	text-align: left;
+	background-color: rgba(0,0,0,0.75); }
+
+PRE {	color: #222222;
+	line-height: 110%; }
+
+CODE {	font-size: 12pt;
+	color: #222222;
+	line-height: 120%; }

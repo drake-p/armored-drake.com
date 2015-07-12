@@ -1,0 +1,84 @@
+body {	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #000 url('background_diamond_tile.jpg');
+	color: #AAA; }
+
+h1, h2, h3, h4, h5, p {
+	padding: 0 20px 5px 20px; }
+
+img {	border: 0; }
+
+.container {
+	width: 700px;
+	margin: 10px auto;
+	padding: 0;
+	overflow: hidden;
+	text-align: center; }
+
+.navbar {
+	padding: 10px 0 0;
+	margin: 0;
+	background-color: #000;
+	border-top: 1px dashed #DDD;
+	border-right: 1px dashed #DDD;
+	border-left: 1px dashed #DDD; }
+
+.content {
+	width: 100%
+	margin: 0;
+	padding: 5px 0 10px;
+	background-color: #000;
+	border: 1px dashed #DDD; }
+
+.header {
+	width: 100%;
+	padding: 0;
+	margin: 0; }
+
+.clr {	clear: both;
+	position: relative; }
+
+.footer {
+	position: relative;
+	clear: both;
+	padding: 0 5px 0 10px; }
+
+strong {
+	font-size : 16pt;
+	font-weight : bold; }
+
+small {	font-size : 10pt; }
+
+sup {	font-size : 9pt;
+	line-height : 140%; }
+
+a {	text-decoration : none;
+	font-weight: bold; }
+
+a:link, a:visited { color: #ffffff; }
+
+a:hover, a:active, a:focus  { color: #ffb200; }
+
+.content ul {
+	padding: 15px 15px 15px 40px; }
+
+.footer a {
+	font-weight: normal; }
+
+table {
+	margin: 0 auto;
+	border: 0;
+	cellpadding: 2;
+	cellspacing: 4; }
+
+td {	width: 130px;
+	text-align: center;
+	vertical-align: top; }
+
+PRE {	color: #222222;
+	line-height: 110%; }
+
+CODE {	font-size: 12pt;
+	color: #222222;
+	line-height: 120%; }

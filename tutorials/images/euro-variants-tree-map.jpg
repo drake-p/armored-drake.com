@@ -1,0 +1,20 @@
+<img src="euro-variants-tree.jpg" width="913" height="591" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.0 -->
+<!-- #$AUTHOR:Drake -->
+<area shape="rect" coords="82,10,274,151" href="euro-variants-boxchain.jpg" />
+<area shape="rect" coords="276,10,439,148" href="euro-variants-byzantine.jpg" />
+<area shape="rect" coords="440,7,643,157" href="euro-variants-42unitchain.jpg" />
+<area shape="rect" coords="644,10,837,149" href="euro-variants-42captive.jpg" />
+<area shape="rect" coords="21,174,249,328" href="euro-variants-roundmaille.jpg" />
+<area shape="rect" coords="250,175,444,323" href="euro-variants-turkishRM.jpg" />
+<area shape="rect" coords="447,175,635,325" href="euro-variants-invertedRM.jpg" />
+<area shape="rect" coords="637,174,883,328" href="euro-variants-captiveIR.jpg" />
+<area shape="rect" coords="15,386,269,564" href="euro-variants-fourfoldRM.jpg" />
+<area shape="rect" coords="271,384,476,565" href="euro-variants-celticRM.jpg" />
+<area shape="rect" coords="591,454,905,539" href="http://mailleartisans.org/weaves/subcat.cgi?key=6976" />
+</map>

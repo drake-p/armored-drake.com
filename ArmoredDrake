@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html template="true">
+<head>
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+  
+
+
+  
+  <title>Armored Drake</title>
+  <meta http-equiv="Content-Style-Type" content="text/css">
+
+
+  
+  <link rel="STYLESHEET" href="maille.css">
+
+
+  
+  <link rel="SHORTCUT ICON" href="Images/drakepic.ico">
+</head>
+
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(60, 60, 60);">
+
+
+<table style="width: 90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top; text-align: center;"><span editable="true" movable="true" id="pic">pic</span></td>
+
+
+      <td style="vertical-align: top; text-align: center;"><span editable="true" optional="true" movable="true" id="text1">text1</span></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top; text-align: center;"><span editable="true" optional="true" movable="true" id="text2">text2</span></td>
+
+
+      <td align="left" valign="top"></td>
+
+
+    </tr>
+
+
+  
+  </tbody>
+</table>
+
+
+<div style="text-align: center;"><a href="index.html">Home</a> | <a href="Armor1.html">Armor</a> | <a href="JewelryMain.html">Jewelry</a> | <a href="Purses1.html">Purses</a> | <a href="Inlays1.html">Inlays</a> | <a href="Miscellaneous1.html">Miscellaneous</a>
+<div style="margin-left: 40px;"><a href="http://www.armored-drake.com/Contact1.html"></a></div>
+
+</div>
+
+</body>
+</html>
