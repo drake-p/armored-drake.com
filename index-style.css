@@ -29,7 +29,7 @@ img {	border: 0; }
 	float: left;
 	text-align: right;
 	font-size: 14px;
-	background: url(slices/viking.jpg) no-repeat bottom left;
+	background: url(/slices/viking.jpg) no-repeat bottom left;
 	padding: 0;
 	margin: 0; }
 
